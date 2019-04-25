@@ -1,0 +1,33 @@
+body{
+    background: lightslategrey;
+}
+
+.array1{
+    box-sizing: border-box;
+    /*grid-template-columns: auto auto auto auto;*/
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    display:inline-block;
+    word-break: break-all;
+}
+
+.result{
+    box-sizing: border-box;
+    /*grid-template-columns: auto auto auto auto;*/
+    grid-gap: 10px;
+    background-color: lightsalmon;
+    padding: 10px;
+    display:inline-block;
+    word-break: break-all;
+}
+
+.input{
+    box-sizing: border-box;
+    /*grid-template-columns: auto auto auto auto;*/
+    grid-gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+    display:inline-block;
+    word-break: break-all;
+}
