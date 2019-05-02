@@ -1,4 +1,4 @@
-let array = [10, 4, 3, 6, 8, 9, 14, 5, 1, 121];
+let array = [10, 4, 3, 6, 8, 9, 14,34, 1, 121];
 
 let curMin = array[0];
 // let curItem;
