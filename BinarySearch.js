@@ -1,5 +1,5 @@
 // create array of elements
-let array = [2, 4, 6, 11, 290, 650];
+let array = [2, 4, 6, 11, 290, 650, 700, 789, 911, 934];
 // for (let i = 0; i <= 9; i++) {
 //     array[i] = i + 1;
 // }
@@ -37,12 +37,21 @@ const binarySearch = (array, value) => {
     if (array[mid] !== value) {
         console.log(`There is no ${value} value in array`);
     } else {
-        console.log(`Index of ${value} in array is ${array.indexOf(value)}`);
+        console.log(`Index of number ${value} in array is [${array.indexOf(value)}]`);
     }
 
     // if the current middle item is what we're looking for return it's index, else return -1
     return (array[mid] !== value) ? -1 : mid;
 };
 
-binarySearch(array, 6);
+binarySearch(array, 789);
+
+// EXERCISES
+
+// 1.1 Suppose you have a sorted list of 128 names, and you're searching
+//through it using binary search. What's the maximum number of steps it
+// would take ? 7
+
+// 1.2 Suppose you double the size of the list. What's the maximum number
+// of steps now? 8
 
