@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+let arr = [123, 2, 18, 8];
+
+console.log(arr);
+
+const tmp = arr[1];
+arr[1] = arr[1 + 1];
+arr[1 + 1] = tmp;
+
+console.log(arr);
+=======
 let arr = [2, 12, 4, 1, 55, 34, 3, 8, 90];
 
 let swap = (array, firstItem, secondItem) => {
@@ -23,3 +34,4 @@ let bubbleSort = (array) => {
 };
 
 console.log(bubbleSort(arr));
+>>>>>>> b5a22ba055816ef7488c1c1e1f764b7e6803f5a6
