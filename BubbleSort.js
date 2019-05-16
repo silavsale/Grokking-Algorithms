@@ -14,6 +14,7 @@ let bubbleSort = (array) => {
     for (i = 0; i < len; i++) {
         for (j = 0; j < len -1; j++) {
             if (array[j] > array[j + 1]) {
+                console.log("i = " + i + ", j = " + j);
                 swap(array, j, j+1);
             }
         }
